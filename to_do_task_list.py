@@ -1,6 +1,9 @@
-# Pylint disable=missing-module-docstring
-# Pylint disable=missing-function-docstring
-# Pylint disable=trailing-newlines
+# pylint: disable=missing-module-docstring
+# disabling:
+# C0304: Trailing newlines (trailing-newlines)
+# pylint: disable=C0304
+# pylint: disable=missing-function-docstring
+# pylint: disable=trailing-newlines
 
 # Simple To-Do List Manager
 def display_menu():
