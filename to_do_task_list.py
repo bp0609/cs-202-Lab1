@@ -1,3 +1,6 @@
+#pylint disable=missing-module-docstring
+#pylint disable=trailing-newlines
+
 # Simple To-Do List Manager
 def display_menu():
     print("\nTo-Do List Manager")
