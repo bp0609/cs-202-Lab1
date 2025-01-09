@@ -1,8 +1,10 @@
-#pylint disable=missing-module-docstring
-#pylint disable=trailing-newlines
+# pylint disable=missing-module-docstring
+# pylint disable=missing-function-docstring
+# pylint disable=trailing-newlines
 
 # Simple To-Do List Manager
 def display_menu():
+    """"display_menu() function displays the menu options for the user to choose from."""
     print("\nTo-Do List Manager")
     print("===================")
     print("1. View Tasks")
